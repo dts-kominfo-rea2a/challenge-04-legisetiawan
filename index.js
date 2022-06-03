@@ -17,11 +17,11 @@ const createDate = (dates,index) => {
     return result[index].toString().slice(0,-3)
   }else{
     for (let i = 0; i < dates.length; i++) {
-      result.push(Date.parse(dates[i]).toString().slice(0,-3))      
+      result.push(Date.parse(dates[i]).toString().slice(0, -3))      
     }
-    return result.sort().join("_")
+    return result.sort().join("-")
   }
-}
+};
 
 // ! JANGAN DIMODIFIKASI
 (() => {
