@@ -8,7 +8,9 @@ const dates = [
 ];
 
 // TODO: Buatlah fungsi createDate
-const createDate = null;
+const createDate = (dates,index) => {
+  let result = [];
+}
 
 // ! JANGAN DIMODIFIKASI
 (() => {
